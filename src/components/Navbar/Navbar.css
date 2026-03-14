@@ -97,6 +97,8 @@ margin: 0 auto;
   }
 
   .navbar-btn{
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
   }
+
 }
