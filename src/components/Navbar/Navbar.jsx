@@ -14,7 +14,7 @@ function Navbar() {
           <a href="#home_hero">Inicio</a>
         </li>
         <li>
-          <a href="#experience">Servicios</a>
+          <a href="#services">Servicios</a>
         </li>
         <li>
           <a href="#projects">Sobre Mi</a>

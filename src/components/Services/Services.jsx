@@ -1,19 +1,21 @@
 import ServiceCard from "./ServiceCard";
 import "./Services.css";
-import { Apple, HeartPlus } from "lucide-react";
+import { Apple, HeartPlus,Dumbbell, BookHeart, CalendarCheck, Users } from "lucide-react";
 
 function Services() {
     const services = [
     {
-      icon: <Apple color="#00A63E" />,
+      icon: <Users color="#00A63E" />,
       title: "Consulta de nutrición personalizada",
       description: "Planes adaptados a tu estilo de vida y objetivos."
     },
      {
+      icon: <Apple color="#00A63E" />,
       title: "Cambio de hábitos",
       description: "Aprende a mejorar tu alimentación."
     },
     {
+      icon:<BookHeart color="#00A63E" />,
       title: "Planes alimenticios",
       description: "Análisis de composición corporal."
     },
@@ -23,10 +25,12 @@ function Services() {
       description: "Logra tu peso ideal de forma saludable."
     },
     {
+      icon: <Dumbbell color="#00A63E" />,
       title: "Nutrición deportiva",
       description: "Optimiza tu rendimiento deportivo."
     },
     {
+      icon: <CalendarCheck color="#00A63E" />,
       title: "Seguimiento semanal online",
       description: "Consultas nutricionales a distancia."
     }
@@ -43,6 +47,7 @@ function Services() {
         {services.map((service, index) => (
           <ServiceCard
             key={index}
+            icon={service.icon}
             title={service.title}
             description={service.description}
           />
