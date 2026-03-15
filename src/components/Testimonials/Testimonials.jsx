@@ -7,8 +7,8 @@ function Testimonials() {
             stars: "⭐⭐⭐⭐⭐",
             description: "Gracias a la guía de esta nutricionista, logré perder 10 kilos en 3 meses y mejorar mi salud en general. ¡Recomendada al 100%!",
             name: "María López",
-            img: "https://randomuser.me/api/portraits",
             service: "Pérdida de peso",
+            img: "../.././public/images/testimonial1.jpg",
            },
             {
             stars: "⭐⭐⭐⭐⭐",
@@ -36,9 +36,10 @@ function Testimonials() {
             key={index}
             stars={testimonial.stars}
             description={testimonial.description}
-            img={testimonial.img}
             name={testimonial.name}
             service={testimonial.service}
+            img={testimonial.img}
+
           />
         ))}
         </div>
