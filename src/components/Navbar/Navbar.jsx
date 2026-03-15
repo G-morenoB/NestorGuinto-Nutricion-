@@ -17,13 +17,13 @@ function Navbar() {
           <a href="#services">Servicios</a>
         </li>
         <li>
-          <a href="#projects">Sobre Mi</a>
+          <a href="#about">Sobre Mi</a>
         </li>
         <li>
-          <a href="#sobre-mi">Testimonios</a>
+          <a href="#Testimonials">Testimonios</a>
         </li>
         <li>
-          <a href="#sobre-mi">Contacto</a>
+          <a href="#contact">Contacto</a>
         </li>
       </ul>
 

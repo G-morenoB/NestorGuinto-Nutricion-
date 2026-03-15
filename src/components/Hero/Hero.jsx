@@ -22,7 +22,7 @@ function Hero() {
               Consulta 
             </a>
 
-            <a href="#servicios" className="btn-secondary">
+            <a href="#services" className="btn-secondary">
               Ver Servicios
             </a>
           </div>
