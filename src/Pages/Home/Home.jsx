@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar"
 import Hero from "../../components/Hero/Hero"
-//import Services from "../components/Services/Services.jsx"
+import Services from "../../components/Services/Services"
 //import About from "../components/About/About.jsx"
 //import Testimonials from "../components/Testimonials/Testimonials.jsx"
 //import AppointmentForm from "../components/AppointmentForm/AppointmentForm. jsx"
@@ -11,8 +11,8 @@ function Home() {
     <>
       <Navbar />
        <Hero /> 
-      {/*<Services />
-      <About />
+      <Services/>
+      {/*<About />
       <Testimonials />
       <AppointmentForm />
       <Footer /> */
