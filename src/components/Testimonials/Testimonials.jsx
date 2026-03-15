@@ -26,7 +26,7 @@ function Testimonials() {
            } 
         ];
     return (  
-<section className="testimonials">
+<section className="testimonials" id="testimonials">
     <h2>Testimonios de mis clientes</h2>
     <p>Testimonios reales de personas que han transformado su salud</p>
 
@@ -47,4 +47,4 @@ function Testimonials() {
     )
 }
 
-export default Testimonials
+export default Testimonials;

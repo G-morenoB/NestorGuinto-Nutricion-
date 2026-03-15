@@ -20,7 +20,7 @@ function Navbar() {
           <a href="#about">Sobre Mi</a>
         </li>
         <li>
-          <a href="#Testimonials">Testimonios</a>
+          <a href="#testimonials">Testimonios</a>
         </li>
         <li>
           <a href="#contact">Contacto</a>
