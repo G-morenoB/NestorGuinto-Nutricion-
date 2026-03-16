@@ -13,7 +13,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 .contact-form input,
@@ -34,6 +34,7 @@
 .contact-form{
   background: white;
   padding: 30px;
+  padding-top: .15rem;
   border-radius: 12px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.05);
 }
@@ -66,7 +67,7 @@
 .contact-right{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .contact h2{
@@ -88,7 +89,7 @@
     display: block;
     margin-bottom: 5px;
     font-weight: 500;
-    color: black;
+    color: #364153;
 }
 
 .contact-info h3{

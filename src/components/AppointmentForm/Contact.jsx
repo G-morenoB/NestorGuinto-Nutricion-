@@ -109,7 +109,7 @@ function Contact() {
 
             </div>
              <div className="img-contact"> 
-                <img src="../../public/images/contact-img.jpeg"  alt="NestorGuinto-Nutrición" className="img"/> 
+                <img src="../../public/images/contact-img1.jpeg"  alt="NestorGuinto-Nutrición" className="img"/> 
             </div>
         </div>
 
