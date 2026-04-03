@@ -52,7 +52,7 @@
 }
 
 .cs-hero-title span {
-  color: #2e7d32;
+  color: #00A63E;
 }
 
 .cs-hero-sub {
@@ -65,7 +65,7 @@
 
 /* ── TRUST STRIP ── */
 .cs-trust {
-  background: #2e7d32;
+  background: #00A63E;
   padding: 0.9rem 2rem;
   display: flex;
   justify-content: center;
@@ -294,7 +294,7 @@
 
 /* ── CTA FINAL ── */
 .cs-cta {
-  background: linear-gradient(135deg, #2e7d32, #43a047);
+  background: linear-gradient(135deg, #2e7d32, #00A63E);
   margin: 0 1.25rem 1.5rem;
   border-radius: 16px;
   padding: 1.75rem 1.25rem;
