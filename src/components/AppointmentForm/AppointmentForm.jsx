@@ -1,8 +1,8 @@
-import "./Contact.css";
+import "./AppointmentForm.css";
 import { Phone,Mail,MapPin } from "lucide-react";
 
 
-function Contact() {
+function AppointmentForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,14 +25,14 @@ function Contact() {
   };
 
   return (
-    <section className="contact" id="contact">
+    <section className="form-section" id="form">
 
       <h2>Agendar tu consulta</h2>
       <p className="p1">Contáctame para agendar una cita</p>
 
-      <div className="contact-container">
+      <div className="form-container">
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="form" onSubmit={handleSubmit}>
 
           <label htmlFor="name">Nombre</label>
           <input
@@ -78,8 +78,8 @@ function Contact() {
 
         </form>
 
-        <div className="contact-right"> 
-            <div className="contact-info">
+        <div className="form-right"> 
+            <div className="form-info">
                  <h3>Información de contacto</h3> 
                  <p className="info"><Mail color="#00A63E" /><strong>Email:</strong></p> 
                  <p className="info2">info@nutricion.com</p>
@@ -108,7 +108,7 @@ function Contact() {
               </div>
 
             </div>
-             <div className="img-contact"> 
+             <div className="img-form"> 
                 <img src="../../public/images/contact-img1.jpeg"  alt="NestorGuinto-Nutrición" className="img"/> 
             </div>
         </div>
@@ -119,4 +119,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default AppointmentForm;

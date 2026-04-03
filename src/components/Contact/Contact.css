@@ -1,0 +1,384 @@
+/* ── ContactSection.css ── */
+
+.cs-root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f8faf8;
+  color: #1a2e1a;
+}
+
+/* ── HERO ── */
+.cs-hero {
+  background: #fff;
+  border-bottom: 1px solid #e8f0e8;
+  padding: 3rem 2rem 2.5rem;
+  text-align: center;
+}
+
+.cs-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.cs-pulse {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #43a047;
+  border-radius: 50%;
+  animation: csPulse 2s ease-in-out infinite;
+}
+
+@keyframes csPulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+.cs-hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a2e1a;
+  margin: 0 0 0.5rem;
+}
+
+.cs-hero-title span {
+  color: #2e7d32;
+}
+
+.cs-hero-sub {
+  font-size: 15px;
+  color: #666;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── TRUST STRIP ── */
+.cs-trust {
+  background: #2e7d32;
+  padding: 0.9rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cs-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #c8e6c9;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ── GRID ── */
+.cs-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  padding: 1.75rem 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ── BASE CARD ── */
+.cs-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e0ede0;
+  box-shadow: 0 2px 12px rgba(46, 125, 50, 0.06);
+  overflow: hidden;
+}
+
+.cs-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+  margin: 0 0 0.4rem;
+}
+
+.cs-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 1.1rem 1.1rem 0.75rem;
+  border-bottom: 1px solid #f0f4f0;
+}
+
+.cs-icon-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ── WHATSAPP CARD ── */
+.cs-wa-top {
+  padding: 1.25rem 1.25rem 1rem;
+}
+
+.cs-wa-number {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a2e1a;
+  letter-spacing: 0.02em;
+  margin: 0 0 3px;
+}
+
+.cs-wa-sub {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+.cs-wa-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25D366;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 1.1rem;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.cs-wa-btn:hover {
+  background: #1da851;
+}
+
+.cs-wa-response {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.65rem 1.25rem;
+  background: #f1f8f1;
+  font-size: 12px;
+  color: #2e7d32;
+  font-weight: 500;
+  border-top: 1px solid #e0ede0;
+}
+
+/* ── INFO ROW (horarios + ubicación) ── */
+.cs-info-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.cs-small-card {
+  padding: 0;
+}
+
+/* ── HORARIOS ── */
+.cs-hours-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 1.1rem;
+  border-bottom: 1px solid #f0f4f0;
+  font-size: 13px;
+}
+
+.cs-hours-row:last-child {
+  border-bottom: none;
+}
+
+.cs-hours-day {
+  color: #555;
+}
+
+.cs-hours-time {
+  font-weight: 600;
+  color: #1a2e1a;
+  font-size: 12px;
+}
+
+.cs-closed {
+  color: #bbb;
+  font-weight: 400;
+}
+
+/* ── UBICACIÓN ── */
+.cs-location-addr {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+  margin: 0.5rem 1.1rem 0.7rem;
+}
+
+.cs-map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2e7d32;
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #e8f5e9;
+  border-radius: 8px;
+  margin: 0 1.1rem 1rem;
+  transition: background 0.15s;
+}
+
+.cs-map-link:hover {
+  background: #c8e6c9;
+}
+
+/* ── SOCIAL CARD ── */
+.cs-social-card {
+  padding: 0;
+}
+
+.cs-social-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 0.8rem 1.1rem 1.1rem;
+}
+
+.cs-social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  background: #fafafa;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.cs-social-btn:hover {
+  border-color: #2e7d32;
+  background: #f1f8f1;
+}
+
+.cs-sicon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ── CTA FINAL ── */
+.cs-cta {
+  background: linear-gradient(135deg, #2e7d32, #43a047);
+  margin: 0 1.25rem 1.5rem;
+  border-radius: 16px;
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+}
+
+.cs-cta h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.cs-cta p {
+  color: #c8e6c9;
+  font-size: 13px;
+  margin: 0 0 1rem;
+}
+
+.cs-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #2e7d32;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.15s;
+}
+
+.cs-cta-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ── FOOTER NOTE ── */
+.cs-footer-note {
+  text-align: center;
+  font-size: 11px;
+  color: #aaa;
+  padding: 0 1.5rem 2rem;
+  margin: 0;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 480px) {
+  .cs-hero-title {
+    font-size: 24px;
+  }
+
+  .cs-trust {
+    gap: 1rem;
+    padding: 0.9rem 1rem;
+  }
+
+  .cs-info-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cs-social-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cs-wa-number {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cs-grid {
+    padding: 2rem 2rem;
+  }
+
+  .cs-hero {
+    padding: 4rem 3rem 3rem;
+  }
+
+  .cs-hero-title {
+    font-size: 38px;
+  }
+}

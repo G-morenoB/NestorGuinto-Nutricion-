@@ -1,4 +1,6 @@
 import "./Hero.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function Hero() {
   return (
@@ -19,7 +21,7 @@ function Hero() {
 
           <div className="hero-buttons">
             <a href="#contacto" className="btn-primary">
-              Consulta 
+             <FontAwesomeIcon icon={faWhatsapp}  /> Consulta 
             </a>
 
             <a href="#services" className="btn-secondary">
