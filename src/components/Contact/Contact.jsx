@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-const WHATSAPP_NUMBER = "525525757657"; // sin + ni espacios
+const WHATSAPP_NUMBER = "5525757657"; 
 const WHATSAPP_MSG = encodeURIComponent(
   "Hola Néstor, me gustaría agendar una consulta de nutrición. ¿Tienes disponibilidad?"
 );
@@ -82,7 +82,7 @@ function Contact() {
           </div>
           <a
             className="cs-wa-btn"
-            href={`https://wa.me/5525757657?text=Hola Néstor, me gustaría agendar una consulta de nutrición. ¿Tienes disponibilidad?`}
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -195,7 +195,7 @@ function Contact() {
       </div>
 
       <p className="cs-footer-note">
-        info@nutricion.com · Coyuca de Benítez, Guerrero · Atención presencial y en línea
+        danniel.guinto@gmail.com · Coyuca de Benítez, Guerrero · Atención presencial y en línea
       </p>
 
     </section>

@@ -23,7 +23,7 @@ function Navbar() {
           <a href="#testimonials">Testimonios</a>
         </li>
         <li>
-          <a href="#contact">Contacto</a>
+          <a href="#contacto">Contacto</a>
         </li>
       </ul>
 
