@@ -2,13 +2,13 @@
 
 .cs-root {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #f8faf8;
+  background: #f8f9fa;
   color: #1a2e1a;
 }
 
 /* ── HERO ── */
 .cs-hero {
-  background: #fff;
+  background: #f8f9fa;
   border-bottom: 1px solid #e8f0e8;
   padding: 3rem 2rem 2.5rem;
   text-align: center;

@@ -17,9 +17,9 @@ function TestimonialCard({ stars, description, name, img, service }) {
             <span className="user-service">{service}</span>
           </div>
         </div>
-        <div className="results-img">
+{/*     <div className="results-img">
           <img src={img} alt={`Resultado de ${name}`}  />
-        </div>
+        </div>*/ } 
       </div>
 
     </div>

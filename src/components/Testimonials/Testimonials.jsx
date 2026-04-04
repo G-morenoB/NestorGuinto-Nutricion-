@@ -5,21 +5,21 @@ function Testimonials() {
         const services = [  
            {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Gracias a la guía de esta nutricionista, logré perder 10 kilos en 3 meses y mejorar mi salud en general. ¡Recomendada al 100%!",
+            description: "Sus planes nutricionales que se adaptan muy bien a tu ritmo de vida ... excelente nutriólogo",
             name: "María López",
             service: "Pérdida de peso",
             img: "../.././public/images/testimonial1.jpg",
            },
             {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Gracias a la guía de esta nutricionista, logré perder 10 kilos en 3 meses y mejorar mi salud en general. ¡Recomendada al 100%!",
+            description: "Muchas gracias Néstor tus recomendaciones para mi dieta de recuperación después de mi fractura, me han servido de guía para tener una sana alimentación, excelente digestión y me han ayudado a mi restablecimiento. De todo corazón O GRACIAS!!!",
             name: "María López",
             img: "https://randomuser.me/api/portraits",
             service: "Pérdida de peso",
            }, 
             {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Gracias a la guía de esta nutricionista, logré perder 10 kilos en 3 meses y mejorar mi salud en general. ¡Recomendada al 100%!",
+            description: "Me encantan sus menús porque son muy completos, además la atención y el seguimiento es muy bueno siempre esta al pendiente de como te sientes y quenecesitas",
             name: "María López",
             img: "https://randomuser.me/api/portraits",
             service: "Pérdida de peso",
