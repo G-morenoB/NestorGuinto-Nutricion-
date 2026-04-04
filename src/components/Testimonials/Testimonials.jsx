@@ -12,7 +12,7 @@ function Testimonials() {
            },
             {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Muchas gracias Néstor tus recomendaciones para mi dieta de recuperación después de mi fractura, me han servido de guía para tener una sana alimentación, excelente digestión y me han ayudado a mi restablecimiento. De todo corazón O GRACIAS!!!",
+            description: "Excelente atención, profesional, у calidez humana, 100% recomendable.",
             name: "María López",
             img: "https://randomuser.me/api/portraits",
             service: "Pérdida de peso",
