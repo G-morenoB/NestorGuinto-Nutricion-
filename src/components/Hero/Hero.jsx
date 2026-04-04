@@ -21,12 +21,12 @@ function Hero() {
 
           <div className="hero-buttons">
             <a 
-             className="btn-primary"
-            href={`https://wa.me/5525757657?text=Hola Néstor, me gustaría agendar una consulta de nutrición. ¿Tienes disponibilidad?`}
-             target="_blank"
-             rel="noopener noreferrer"
-             >
-             <FontAwesomeIcon icon={faWhatsapp}  /> Consulta 
+              className="btn-primary"
+              href={`https://wa.me/5525757657?text=Hola Néstor, me gustaría agendar una consulta de nutrición. ¿Tienes disponibilidad?`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} /> Consulta 
             </a>
 
             <a href="#services" className="btn-secondary">
@@ -36,7 +36,17 @@ function Hero() {
         </div>
 
         <div className="hero-image">
+<<<<<<< HEAD
           <img src="/images/HeroImg1.jpeg" alt="Nutricionista"/>
+=======
+          <div className="hero-img-wrapper">
+            <img src="/images/HeroImg1.jpeg" alt="Nutricionista" />
+            <div className="hero-quote">
+              <p>"La mejor inversión que puedes hacer es en tu salud."</p>
+              <span>— Néstor Guinto, Nutriólogo</span>
+            </div>
+          </div>
+>>>>>>> feature/new-section
         </div>
 
       </div>
