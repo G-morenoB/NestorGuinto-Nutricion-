@@ -1,56 +1,61 @@
-.hero{
+/* ── Hero.css ── */
+
+.hero {
   padding: 1rem 6% 4rem;
   background: #f8f9fa;
 }
 
-.hero-container{
+.hero-container {
   max-width: 1200px;
-  margin: 0 ;
-
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
 }
 
-.hero-text{
+/* ── TEXTO ── */
+.hero-text {
   flex: 1;
 }
 
-.hero-text h1{
+.hero-text h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #1e293b;
   line-height: 1.2;
 }
 
-.hero-text span{
+.hero-text span {
   color: #00A63E;
 }
 
-.hero-text p{
+.hero-text p {
   margin-top: 1.5rem;
   color: #6b7280;
   font-size: 1.1rem;
   max-width: 500px;
 }
 
-.hero-buttons{
+.hero-buttons {
   margin-top: 2rem;
   display: flex;
   gap: 1rem;
 }
 
-.btn-primary{
+.btn-primary {
   background: #00A63E;
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 999px;
   text-decoration: none;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.btn-secondary{
+.btn-secondary {
   border: 2px solid #00A63E;
   color: #00A63E;
   padding: 0.8rem 1.5rem;
@@ -59,46 +64,91 @@
   font-weight: 500;
 }
 
-.hero-image{
+/* ── IMAGEN + TARJETA ── */
+.hero-image {
   flex: 1;
 }
 
-.hero-image img{
+.hero-img-wrapper {
+  position: relative;
+  display: inline-block;
   width: 75%;
-  border-radius: 20px;
-  object-fit: cover;
 }
 
-@media (max-width: 768px) {
+.hero-img-wrapper img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
 
-  .hero-container{
+.hero-quote {
+  position: absolute;
+  bottom: 20px;
+  left: -20px;
+  right: 20px;
+  background: white;
+  border-radius: 14px;
+  padding: 16px 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.hero-quote p {
+  font-size: 13px;
+  color: #333;
+  margin: 0 0 6px;
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-quote span {
+  font-size: 11px;
+  color: #00A63E;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .hero-container {
     flex-direction: column;
     text-align: left;
     gap: 2rem;
   }
 
-  .hero-image img{
+  .hero-img-wrapper {
     width: 100%;
   }
 
-  .hero-buttons{
+  .hero-quote {
+    left: 10px;
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .hero-buttons {
     margin-top: 2rem;
     gap: 1rem;
     display: flex;
     align-items: center;
   }
-
-} /* ← cerrar media query */
-
-
-@media (max-width: 480px) { 
-.hero-buttons a{
-  width: 100%;
-  text-align: center;
-}
-.hero-buttons{
-  flex-direction: column;
-  gap: 1rem;
 }
 
+@media (max-width: 480px) {
+  .hero-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-quote {
+    position: static;
+    margin-top: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
 }
