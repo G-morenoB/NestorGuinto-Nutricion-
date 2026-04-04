@@ -47,7 +47,7 @@ function Contact() {
         </p>
       </div>
 
-      {/* ── TRUST STRIP ── */}
+      {/* ── TRUST STRIP ── 
       <div className="cs-trust">
         <div className="cs-trust-item">
           <svg width="14" height="14" fill="none" stroke="#c8e6c9" strokeWidth="2" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@ function Contact() {
           </svg>
           Presencial y en línea
         </div>
-      </div>
+      </div>*/}
 
       {/* ── CARDS ── */}
       <div className="cs-grid">

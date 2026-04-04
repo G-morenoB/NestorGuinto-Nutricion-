@@ -9,7 +9,6 @@
 /* ── HERO ── */
 .cs-hero {
   background: #f8f9fa;
-  border-bottom: 1px solid #e8f0e8;
   padding: 3rem 2rem 2.5rem;
   text-align: center;
 }
@@ -63,7 +62,7 @@
   margin: 0;
 }
 
-/* ── TRUST STRIP ── */
+/* ── TRUST STRIP ── 
 .cs-trust {
   background: #00A63E;
   padding: 0.9rem 2rem;
@@ -80,14 +79,14 @@
   color: #c8e6c9;
   font-size: 12px;
   font-weight: 500;
-}
+}*/
 
 /* ── GRID ── */
 .cs-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
-  padding: 1.75rem 1.25rem;
+  padding: 1.75rem 1.5rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -371,7 +370,7 @@
 
 @media (min-width: 768px) {
   .cs-grid {
-    padding: 2rem 2rem;
+    padding: .5rem 2rem;
   }
 
   .cs-hero {
