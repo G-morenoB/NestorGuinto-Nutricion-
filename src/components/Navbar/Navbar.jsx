@@ -1,12 +1,10 @@
 import "./Navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAppleWhole } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-       <img className="navbar-logo-img" src="././public/images/logo.png" alt="Logo" />
+       <img className="navbar-logo-img" src="/images/logo.png" alt="Logo" />
       </div>
 
       <ul className="navbar-links">
