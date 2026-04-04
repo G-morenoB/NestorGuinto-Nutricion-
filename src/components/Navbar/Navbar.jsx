@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-       <FontAwesomeIcon icon={faAppleWhole} size="lg" style={{color: "rgb(0, 166, 62)",}} /> Nestor Guinto - Nutrición
+       <img className="navbar-logo-img" src="././public/images/logo.png" alt="Logo" />
       </div>
 
       <ul className="navbar-links">

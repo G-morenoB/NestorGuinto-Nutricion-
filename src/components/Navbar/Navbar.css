@@ -1,4 +1,3 @@
-/* NAVBAR STYLES*/
 .navbar {
 width: 100%; 
 padding: 1.2rem 6%;
@@ -13,21 +12,11 @@ border-bottom: 1px solid rgba(0,0,0,0.05);
  z-index: 1000; 
       }
 
-.logo-icon{
-  color: #00A63E;
-  font-size: 1.2rem;
+.navbar-logo-img {
+  height: 55px;     
+  width: auto;       
+  object-fit: contain;
 }
-
-.navbar-logo { 
-display: flex;
-align-items: center;
-gap: 6px;
-font-weight: 600; 
-font-size: 1.1rem; 
-letter-spacing: 1px;
-color: #000000;
-cursor: pointer;
- }
 
 .navbar-links { 
 display: flex; 
