@@ -38,7 +38,7 @@ function About() {
       <div className="about-container">
 
         <div className="about-image">
-          <img src="../../public/images/SobreMi.jpeg" alt="Néstor Guinto Nutriólogo" />
+          <img src="/images/SobreMi.jpeg" alt="Néstor Guinto Nutriólogo" />
         </div>
 
         <div className="about-text">
