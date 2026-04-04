@@ -25,6 +25,8 @@
   object-fit: cover;
   height: 510px;
   display: block;
+  justify-content: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .about-text {
