@@ -7,22 +7,22 @@ function Testimonials() {
             stars: "⭐⭐⭐⭐⭐",
             description: "Sus planes nutricionales que se adaptan muy bien a tu ritmo de vida ... excelente nutriólogo",
             name: "María López",
-            service: "Pérdida de peso",
+            service: "Control de peso",
             img: "../.././public/images/testimonial1.jpg",
            },
             {
             stars: "⭐⭐⭐⭐⭐",
             description: "Excelente atención, profesional, у calidez humana, 100% recomendable.",
-            name: "María López",
+            name: "Juan Pérez",
             img: "https://randomuser.me/api/portraits",
-            service: "Pérdida de peso",
+            service: "Nutrición deportiva",
            }, 
             {
             stars: "⭐⭐⭐⭐⭐",
             description: "Me encantan sus menús porque son muy completos, además la atención y el seguimiento es muy bueno siempre esta al pendiente de como te sientes y quenecesitas",
-            name: "María López",
+            name: "Esther Cruz",
             img: "https://randomuser.me/api/portraits",
-            service: "Pérdida de peso",
+            service: "Control de peso",
            } 
         ];
     return (  
