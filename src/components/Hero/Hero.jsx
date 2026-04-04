@@ -36,9 +36,6 @@ function Hero() {
         </div>
 
         <div className="hero-image">
-<<<<<<< HEAD
-          <img src="/images/HeroImg1.jpeg" alt="Nutricionista"/>
-=======
           <div className="hero-img-wrapper">
             <img src="/images/HeroImg1.jpeg" alt="Nutricionista" />
             <div className="hero-quote">
@@ -46,7 +43,6 @@ function Hero() {
               <span>— Néstor Guinto, Nutriólogo</span>
             </div>
           </div>
->>>>>>> feature/new-section
         </div>
 
       </div>
