@@ -20,7 +20,12 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#contacto" className="btn-primary">
+            <a 
+             className="btn-primary"
+            href={`https://wa.me/5525757657?text=Hola Néstor, me gustaría agendar una consulta de nutrición. ¿Tienes disponibilidad?`}
+             target="_blank"
+             rel="noopener noreferrer"
+             >
              <FontAwesomeIcon icon={faWhatsapp}  /> Consulta 
             </a>
 
