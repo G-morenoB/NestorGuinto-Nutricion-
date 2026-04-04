@@ -39,7 +39,7 @@ function Hero() {
           <div className="hero-img-wrapper">
             <img src="/images/HeroImg1.jpeg" alt="Nutricionista" />
             <div className="hero-quote">
-              <p>"La mejor inversión que puedes hacer es en tu salud."</p>
+              <p>"¿Sabías que el momento en que empiezas a cuidar tu alimentación puede cambiar el futuro de tu salud?"</p>
               <span>— Néstor Guinto, Nutriólogo</span>
             </div>
           </div>
