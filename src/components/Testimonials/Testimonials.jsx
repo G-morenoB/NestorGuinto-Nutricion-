@@ -5,22 +5,22 @@ function Testimonials() {
         const services = [  
            {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Sus planes nutricionales que se adaptan muy bien a tu ritmo de vida ... excelente nutriólogo",
-            name: "María López",
+            description: "El mejor nutriólogo, recetas súper fáciles para adultos y niños muy completas. Siempre está al pendiente de ti y de todas tus dudas. ",
+            name: "Ana Serna",
             service: "Control de peso",
             img: "../.././public/images/testimonial1.jpg",
            },
             {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Excelente atención, profesional, у calidez humana, 100% recomendable.",
-            name: "Juan Pérez",
+            description: "Un nutriólogo muy bueno, las comídas muy ricas y para nada aburridas. Vez cambios en poco tiempo, te empiezas a sentir mejor y además está pendiente de ti respondiendo tus dudas.",
+            name: "Leslie Peñaloza",
             img: "https://randomuser.me/api/portraits",
             service: "Nutrición deportiva",
            }, 
             {
             stars: "⭐⭐⭐⭐⭐",
-            description: "Me encantan sus menús porque son muy completos, además la atención y el seguimiento es muy bueno siempre esta al pendiente de como te sientes y quenecesitas",
-            name: "Esther Cruz",
+            description: "Me encantan sus menús porque son muy completos, además la atención y el seguimiento es muy bueno siempre esta al pendiente de como te sientes y que necesitas",
+            name: "Linett SG",
             img: "https://randomuser.me/api/portraits",
             service: "Control de peso",
            } 
