@@ -156,3 +156,13 @@
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
 }
+.hero-quote {
+  opacity: 0;
+  transform: translateX(-40px) scale(0.95);
+  transition: all 0.8s ease 0.2s;
+}
+
+.hero-quote.visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}

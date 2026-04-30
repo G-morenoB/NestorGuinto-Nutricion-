@@ -1,8 +1,28 @@
 import "./Hero.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { useEffect } from "react";
 
 function Hero() {
+  useEffect(() => {
+  const quote = document.querySelector(".hero-quote");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.3 }
+  );
+
+  if (quote) observer.observe(quote);
+
+  return () => observer.disconnect();
+}, []);
+
   return (
     <section className="hero" id="home_hero">
 
