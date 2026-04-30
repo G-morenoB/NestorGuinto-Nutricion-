@@ -1,8 +1,28 @@
 import ServiceCard from "./ServiceCard";
 import "./Services.css";
 import { Apple, HeartPlus,Dumbbell, BookHeart, CalendarCheck, Users } from "lucide-react";
+import { useEffect } from "react";
 
 function Services() {
+  useEffect(() => {
+  const cards = document.querySelectorAll(".service-card");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  cards.forEach((card) => observer.observe(card));
+
+  return () => observer.disconnect();
+}, []);
+
     const services = [
     {
       icon: <Users color="#00A63E" />,
