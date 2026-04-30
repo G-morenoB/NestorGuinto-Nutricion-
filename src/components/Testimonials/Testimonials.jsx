@@ -1,7 +1,27 @@
 import "./Testimonials.css"
 import TestimonialCard from "./TestimonialsCard.jsx";
+import { useEffect } from "react";
 
 function Testimonials() {
+  useEffect(() => {
+  const cards = document.querySelectorAll(".testimonial-card");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  cards.forEach((card) => observer.observe(card));
+
+  return () => observer.disconnect();
+}, []);
+
         const services = [  
            {
             stars: "⭐⭐⭐⭐⭐",
